@@ -84,8 +84,6 @@ npm run test:e2e
 
 ```bash
 # Multiple health check endpoints (choose any)
-curl http://localhost:8080/health
-curl http://localhost:8080/healthz
 curl http://localhost:8080/actuator/health
 ```
 
